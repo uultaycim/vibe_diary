@@ -1,8 +1,6 @@
-export default App;
-
 import { useEffect } from 'react';
 import WebApp from '@twa-dev/sdk';
-
+export default App;
 WebApp.ready();
 
 function App() {
